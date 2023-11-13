@@ -24,7 +24,7 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(name: "AliceOnboarding",
-                      url: "https://drive.google.com/uc?id=1lv9_XvMQ0PnDPwWlZrgcObs6Ix_5Bq7y&export=download",
+                      url: "https://storage.googleapis.com/onboarding-ios-spm/AliceOnboarding.zip",
                       checksum: "147f1601dac5ff8c6e535c73494ccaf3c360f3267fc6502b6f9acc16bad5ce27"),
     ]
 )
