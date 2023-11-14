@@ -14,13 +14,12 @@ let package = Package(
             targets: ["AliceOnboarding"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/Alamofire/Alamofire.git", from: "4.9.1"),
-        .package(url: "https://github.com/antitypical/Result.git", from: "5.0.0"),
-        .package(url: "https://github.com/SwiftyJSON/SwiftyJSON.git", from: "5.0.1"),
-        .package(url: "https://github.com/jpsim/Yams.git", from: "2.0.0"),
-        .package(url: "https://github.com/Alamofire/Alamofire.git", from: "1.0.0"),
-        .package(url: "https://github.com/krzyzanowskim/OpenSSL.git", .upToNextMinor(from: "1.1.2000")),
-        .package(url: "https://github.com/airbnb/lottie-spm.git", from: "4.2.0")
+            .package(
+                name: "OpenSSL",
+                url: "https://github.com/krzyzanowskim/OpenSSL.git",
+                .exact("1.1.2000")
+            )
+        ],
     ],
     targets: [
         .binaryTarget(name: "AliceOnboarding",
