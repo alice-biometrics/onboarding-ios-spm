@@ -19,7 +19,6 @@ let package = Package(
                 url: "https://github.com/krzyzanowskim/OpenSSL.git",
                 .exact("1.1.2000")
             )
-        ],
     ],
     targets: [
         .binaryTarget(name: "AliceOnboarding",
