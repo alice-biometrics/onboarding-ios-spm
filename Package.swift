@@ -23,6 +23,6 @@ let package = Package(
     targets: [
         .binaryTarget(name: "AliceOnboarding",
                       url: "https://storage.googleapis.com/onboarding-ios-spm/AliceOnboarding.zip",
-                      checksum: "8fb1b0cc0a88bd3767b8a8d9aa2f30bd5d6e61c14b1b7e3cd3d0e08d8cb5540d"),
+                      checksum: "346add37649b1df4b9a7a675b727c46a5898e3fcd0f3d71c32007ca32d044822"),
     ]
 )
